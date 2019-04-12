@@ -5,10 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.zhangxq.refreshlayout.simples.ListActivity;
-import com.zhangxq.refreshlayout.simples.MultiColumnRecyclerActivity;
-import com.zhangxq.refreshlayout.simples.RecyclerActivity;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override

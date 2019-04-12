@@ -1,4 +1,4 @@
-package com.zhangxq.refreshlayout.simples;
+package com.zhangxq.refreshlayout;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 import com.zhangxq.loadrefreshlayout.ListRefreshLayout;
 import com.zhangxq.loadrefreshlayout.base.OnLoadListener;
-import com.zhangxq.refreshlayout.R;
 
 import java.util.ArrayList;
 import java.util.List;

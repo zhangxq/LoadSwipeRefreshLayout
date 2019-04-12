@@ -18,15 +18,15 @@
         </activity>
 
         <activity
-            android:name=".simples.ListActivity"
+            android:name=".ListActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".simples.RecyclerActivity"
+            android:name=".RecyclerActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".simples.MultiColumnRecyclerActivity"
+            android:name=".MultiColumnRecyclerActivity"
             android:screenOrientation="portrait" />
     </application>
 </manifest>
