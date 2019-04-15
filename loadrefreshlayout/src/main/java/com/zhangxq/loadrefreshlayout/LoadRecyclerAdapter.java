@@ -18,7 +18,7 @@ public abstract class LoadRecyclerAdapter extends RecyclerView.Adapter {
     private int dataSize;
     private Handler handler = new Handler();
 
-    public void showFootView(boolean isShow) {
+    void showFootView(boolean isShow) {
         if (isShow) {
             footerCount = 1;
         } else {
@@ -42,7 +42,7 @@ public abstract class LoadRecyclerAdapter extends RecyclerView.Adapter {
         });
     }
 
-    public void setFootView(View footView) {
+    void setFootView(View footView) {
         this.footView = footView;
         notifyDataSetChanged();
     }

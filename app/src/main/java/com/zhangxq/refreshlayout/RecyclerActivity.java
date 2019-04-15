@@ -103,14 +103,14 @@ public class RecyclerActivity extends AppCompatActivity implements SwipeRefreshL
                 myViewholder.tvTest.setBackgroundColor(0xffffffff);
             }
         }
-    }
 
-    private class MyViewholder extends RecyclerView.ViewHolder {
-        TextView tvTest;
+        private class MyViewholder extends RecyclerView.ViewHolder {
+            TextView tvTest;
 
-        MyViewholder(View itemView) {
-            super(itemView);
-            tvTest = itemView.findViewById(R.id.tvTest);
+            MyViewholder(View itemView) {
+                super(itemView);
+                tvTest = itemView.findViewById(R.id.tvTest);
+            }
         }
     }
 }
